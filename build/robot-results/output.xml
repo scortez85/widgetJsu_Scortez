@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0 (Jython 2.7.0 on java1.8.0_112)" generated="20170206 11:23:29.907">
+<suite source="C:\Users\Steven\Downloads\custom-widget\src\test\acceptancetest" name="Acceptancetest" id="s1">
+<suite source="C:\Users\Steven\Downloads\custom-widget\src\test\acceptancetest\CustomWidgetTests.robot" name="CustomWidgetTests" id="s1-s1">
+<test name="Widget Is Not Selected Initially" id="s1-s1-t1">
+<kw library="SwingLibrary" name="Start Application">
+<doc>Alias for `Launch Application` keyword</doc>
+<arguments>
+<arg>edu.jsu.mcis.Main</arg>
+</arguments>
+<msg level="FAIL" timestamp="20170206 11:23:32.107">edu.jsu.mcis.Main</msg>
+<status endtime="20170206 11:23:32.107" starttime="20170206 11:23:32.060" status="FAIL"></status>
+</kw>
+<status critical="yes" endtime="20170206 11:23:32.123" starttime="20170206 11:23:32.060" status="FAIL">edu.jsu.mcis.Main</status>
+</test>
+<test name="Widget Is Selected After Center Click" id="s1-s1-t2">
+<kw library="SwingLibrary" name="Start Application">
+<doc>Alias for `Launch Application` keyword</doc>
+<arguments>
+<arg>edu.jsu.mcis.Main</arg>
+</arguments>
+<msg level="FAIL" timestamp="20170206 11:23:32.154">edu.jsu.mcis.Main</msg>
+<status endtime="20170206 11:23:32.185" starttime="20170206 11:23:32.138" status="FAIL"></status>
+</kw>
+<status critical="yes" endtime="20170206 11:23:32.185" starttime="20170206 11:23:32.123" status="FAIL">edu.jsu.mcis.Main</status>
+</test>
+<test name="Widget Is Unchanged After Edge Click" id="s1-s1-t3">
+<kw library="SwingLibrary" name="Start Application">
+<doc>Alias for `Launch Application` keyword</doc>
+<arguments>
+<arg>edu.jsu.mcis.Main</arg>
+</arguments>
+<msg level="FAIL" timestamp="20170206 11:23:32.232">edu.jsu.mcis.Main</msg>
+<status endtime="20170206 11:23:32.232" starttime="20170206 11:23:32.201" status="FAIL"></status>
+</kw>
+<status critical="yes" endtime="20170206 11:23:32.232" starttime="20170206 11:23:32.185" status="FAIL">edu.jsu.mcis.Main</status>
+</test>
+<test name="Widget Toggles With Successive Center Clicks" id="s1-s1-t4">
+<kw library="SwingLibrary" name="Start Application">
+<doc>Alias for `Launch Application` keyword</doc>
+<arguments>
+<arg>edu.jsu.mcis.Main</arg>
+</arguments>
+<msg level="FAIL" timestamp="20170206 11:23:32.263">edu.jsu.mcis.Main</msg>
+<status endtime="20170206 11:23:32.263" starttime="20170206 11:23:32.248" status="FAIL"></status>
+</kw>
+<status critical="yes" endtime="20170206 11:23:32.263" starttime="20170206 11:23:32.232" status="FAIL">edu.jsu.mcis.Main</status>
+</test>
+<status endtime="20170206 11:23:32.279" starttime="20170206 11:23:30.255" status="FAIL"></status>
+</suite>
+<status endtime="20170206 11:23:32.279" starttime="20170206 11:23:29.931" status="FAIL"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="4">Critical Tests</stat>
+<stat pass="0" fail="4">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="4" name="Acceptancetest" id="s1">Acceptancetest</stat>
+<stat pass="0" fail="4" name="CustomWidgetTests" id="s1-s1">Acceptancetest.CustomWidgetTests</stat>
+</suite>
+</statistics>
+<errors>
+<msg level="ERROR" timestamp="20170206 11:23:32.029">Error in file 'C:\Users\Steven\Downloads\custom-widget\src\test\acceptancetest\CustomWidgetTests.robot': Importing test library 'keywords.CustomWidgetKeywords' failed: ImportError: No module named keywords
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\Steven\.gradle\caches\modules-2\files-2.1\org.robotframework\robotframework\3.0\379defe8be9c22457b721a2bd8cb045506fef3e3\Lib
+  C:\Users\Steven\.gradle\caches\modules-2\files-2.1\org.robotframework\robotframework\3.0\379defe8be9c22457b721a2bd8cb045506fef3e3\robotframework-3.0.jar\Lib
+  __classpath__
+  __pyclasspath__/
+CLASSPATH:
+  C:\Program Files (x86)\gradle-3.3\lib\gradle-launcher-3.3.jar</msg>
+</errors>
+</robot>
