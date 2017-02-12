@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="edu.jsu.mcis.CustomWidgetTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-02-06T17:23:54" hostname="Encrypted" time="0.094">
+<testsuite name="edu.jsu.mcis.CustomWidgetTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-02-12T15:10:48" hostname="Encrypted" time="0.094">
   <properties/>
-  <testcase name="testClickingCenterOfWidgetSelectsIt" classname="edu.jsu.mcis.CustomWidgetTest" time="0.094"/>
-  <testcase name="testWidgetIsInitiallyDeselected" classname="edu.jsu.mcis.CustomWidgetTest" time="0.0"/>
+  <testcase name="testWidgetHexagonIsInitiallySelected" classname="edu.jsu.mcis.CustomWidgetTest" time="0.094"/>
+  <testcase name="testClickingCenterOfWidgetSelectsIt" classname="edu.jsu.mcis.CustomWidgetTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

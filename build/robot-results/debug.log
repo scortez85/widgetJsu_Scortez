@@ -1,581 +1,148 @@
 ==============================================================================
-20170206 11:23:30.255 - INFO - + START SUITE: Acceptancetest [ ]
+20170212 09:10:57.516 - INFO - + START SUITE: Acceptancetest [ ]
 ==============================================================================
-20170206 11:23:32.045 - INFO - +- START SUITE: Acceptancetest.CustomWidgetTests [ ]
+20170212 09:10:58.157 - INFO - +- START SUITE: Acceptancetest.CustomWidgetTests [ ]
 ==============================================================================
-20170206 11:23:32.060 - INFO - +-- START TEST: Widget Is Not Selected Initially [ ]
+20170212 09:10:58.173 - INFO - +-- START TEST: Hexagon Is Selected Initially [ ]
 ------------------------------------------------------------------------------
-20170206 11:23:32.060 - INFO - +--- START KW: SwingLibrary.Start Application [ edu.jsu.mcis.Main ]
-20170206 11:23:32.107 - FAIL - edu.jsu.mcis.Main
-20170206 11:23:32.107 - DEBUG - java.lang.RuntimeException: 
-	at org.robotframework.javalib.library.AnnotationLibrary.retrieveInnerException(AnnotationLibrary.java:148)
-	at org.robotframework.javalib.library.AnnotationLibrary.runKeyword(AnnotationLibrary.java:130)
-	at org.robotframework.swing.SwingLibrary.runKeyword(SwingLibrary.java:112)
-	at robot.model.testcase$py.visit$7(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testcase.py:73)
-	at robot.model.testcase$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testcase.py)
-	at robot.model.itemlist$py.visit$10(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/itemlist.py:68)
-	at robot.model.itemlist$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/itemlist.py)
-	at robot.model.visitor$py.visit_suite$2(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/visitor.py:87)
-	at robot.model.visitor$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/visitor.py)
-	at robot.model.testsuite$py.visit$19(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testsuite.py:160)
-	at robot.model.testsuite$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testsuite.py)
-	at robot.model.itemlist$py.visit$10(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/itemlist.py:68)
-	at robot.model.itemlist$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/itemlist.py)
-	at robot.model.visitor$py.visit_suite$2(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/visitor.py:87)
-	at robot.model.visitor$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/visitor.py)
-	at robot.model.testsuite$py.visit$19(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testsuite.py:160)
-	at robot.model.testsuite$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testsuite.py)
-	at robot.run$py.main$3(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/run.py:441)
-	at robot.run$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/run.py)
-	at robot.utils.application$py._execute$10(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/utils/application.py:91)
-	at robot.utils.application$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/utils/application.py)
-	at robot.utils.application$py.execute_cli$5(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/utils/application.py:46)
-	at robot.utils.application$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/utils/application.py)
-	at robot.run$py.run_cli$7(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/run.py:466)
-	at robot.run$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/run.py)
-	at robot.jarrunner$py._run$3(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/jarrunner.py:63)
-	at robot.jarrunner$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/jarrunner.py)
-	at robot.jarrunner$py.run$2(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/jarrunner.py:56)
-	at robot.jarrunner$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/jarrunner.py)
-	at org.robotframework.RobotRunner.run(RobotRunner.java:73)
-	at org.robotframework.RobotFramework.run(RobotFramework.java:60)
-	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
-	at org.codehaus.groovy.runtime.callsite.StaticMetaMethodSite.invoke(StaticMetaMethodSite.java:46)
-	at org.codehaus.groovy.runtime.callsite.StaticMetaMethodSite.call(StaticMetaMethodSite.java:91)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
-	at org.roboscratch.gradle.RunRobot.run(RunRobot.groovy:184)
-	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
-	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.doExecute(DefaultTaskClassInfoStore.java:141)
-	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:134)
-	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:123)
-	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:632)
-	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:615)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:95)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:76)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:55)
-	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:62)
-	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
-	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:88)
-	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:46)
-	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:51)
-	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
-	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
-	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.execute(DefaultTaskGraphExecuter.java:236)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.execute(DefaultTaskGraphExecuter.java:228)
-	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:61)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:228)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:215)
-	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:77)
-	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:58)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:32)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:113)
-	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
-	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
-	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
-	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
-	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
-	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
-	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
-	at org.gradle.initialization.DefaultGradleLauncher$3.execute(DefaultGradleLauncher.java:196)
-	at org.gradle.initialization.DefaultGradleLauncher$3.execute(DefaultGradleLauncher.java:193)
-	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:56)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:193)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:119)
-	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:102)
-	at org.gradle.launcher.exec.GradleBuildController.run(GradleBuildController.java:71)
-	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
-	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:41)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:75)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:49)
-	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:44)
-	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:29)
-	at org.gradle.launcher.daemon.server.exec.ExecuteBuild.doBuild(ExecuteBuild.java:67)
-	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
-	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
-	at org.gradle.launcher.daemon.server.exec.WatchForDisconnection.execute(WatchForDisconnection.java:47)
-	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
-	at org.gradle.launcher.daemon.server.exec.ResetDeprecationLogger.execute(ResetDeprecationLogger.java:26)
-	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
-	at org.gradle.launcher.daemon.server.exec.RequestStopIfSingleUsedDaemon.execute(RequestStopIfSingleUsedDaemon.java:34)
-	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
-	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:74)
-	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:72)
-	at org.gradle.util.Swapper.swap(Swapper.java:38)
-	at org.gradle.launcher.daemon.server.exec.ForwardClientInput.execute(ForwardClientInput.java:72)
-	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
-	at org.gradle.launcher.daemon.server.exec.LogAndCheckHealth.execute(LogAndCheckHealth.java:55)
-	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
-	at org.gradle.launcher.daemon.server.exec.LogToClient.doBuild(LogToClient.java:60)
-	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
-	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
-	at org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment.doBuild(EstablishBuildEnvironment.java:72)
-	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
-	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
-	at org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy$1.run(StartBuildOrRespondWithBusy.java:50)
-	at org.gradle.launcher.daemon.server.DaemonStateCoordinator$1.run(DaemonStateCoordinator.java:297)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:54)
-	at org.gradle.internal.concurrent.StoppableExecutorImpl$1.run(StoppableExecutorImpl.java:40)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-Caused by: java.lang.ClassNotFoundException: edu.jsu.mcis.Main
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
-	at java.lang.Class.forName0(Native Method)
-	at java.lang.Class.forName(Class.java:264)
-	at org.robotframework.swing.keyword.launch.ApplicationLaunchingKeywords.getMainMethod(ApplicationLaunchingKeywords.java:75)
-	at org.robotframework.swing.keyword.launch.ApplicationLaunchingKeywords.launchApplication(ApplicationLaunchingKeywords.java:33)
-	at org.robotframework.swing.keyword.launch.ApplicationLaunchingKeywords.startApplication(ApplicationLaunchingKeywords.java:41)
-	at org.robotframework.javalib.reflection.KeywordInvoker.invoke(KeywordInvoker.java:50)
-	at org.robotframework.javalib.beans.annotation.AnnotationKeywordExtractor$1.execute(AnnotationKeywordExtractor.java:62)
-	at org.robotframework.javalib.library.KeywordFactoryBasedLibrary.runKeyword(KeywordFactoryBasedLibrary.java:37)
-	at org.robotframework.javalib.library.AnnotationLibrary.runKeyword(AnnotationLibrary.java:128)
-	... 260 more
-20170206 11:23:32.123 - INFO - +--- END KW: SwingLibrary.Start Application (47)
+20170212 09:10:58.173 - INFO - +--- START KW: SwingLibrary.Start Application [ edu.jsu.mcis.Main ]
+20170212 09:10:58.204 - INFO - +--- END KW: SwingLibrary.Start Application (31)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170212 09:10:58.204 - INFO - +--- START KW: SwingLibrary.Select Window [ Main ]
+20170212 09:10:58.266 - DEBUG - Jemmy: Start to wait frame "Frame with name or title 'Main'" opened
+20170212 09:10:58.266 - DEBUG - Jemmy: Frame "Frame with name or title 'Main'" has been opened in 0 milliseconds
+    javax.swing.JFrame[frame20,0,0,500x500,layout=java.awt.BorderLayout,title=Main,resizable,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,484x461,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+20170212 09:10:58.266 - INFO - +--- END KW: SwingLibrary.Select Window (62)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170212 09:10:58.266 - INFO - +--- START KW: SwingLibrary.Label Text Should Be [ label | Hexagon ]
+20170212 09:10:58.298 - DEBUG - Jemmy: Waiting for "label" subcomponent
+20170212 09:10:58.298 - DEBUG - Jemmy: Start to wait action "Wait for "label" subcomponent to be displayed"
+20170212 09:10:58.298 - DEBUG - Jemmy: "Wait for "label" subcomponent to be displayed" action has been produced in 0 milliseconds with result 
+    : javax.swing.JLabel[label,0,0,484x16,alignmentX=0.0,alignmentY=0.0,border=,flags=8388608,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,horizontalAlignment=CENTER,horizontalTextPosition=TRAILING,iconTextGap=4,labelFor=,text=Hexagon,verticalAlignment=CENTER,verticalTextPosition=CENTER]
+20170212 09:10:58.313 - INFO - +--- END KW: SwingLibrary.Label Text Should Be (47)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170212 09:10:58.313 - INFO - +--- START KW: SwingLibrary.Close Window [ Main ]
+20170212 09:10:58.313 - DEBUG - Jemmy: Start to wait frame "Frame with name or title 'Main'" opened
+20170212 09:10:58.313 - DEBUG - Jemmy: Frame "Frame with name or title 'Main'" has been opened in 0 milliseconds
+    javax.swing.JFrame[frame20,0,0,500x500,layout=java.awt.BorderLayout,title=Main,resizable,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,484x461,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+20170212 09:10:58.516 - INFO - +--- END KW: SwingLibrary.Close Window (203)
 ------------------------------------------------------------------------------
-20170206 11:23:32.123 - INFO - +-- END TEST: Widget Is Not Selected Initially (63)
+20170212 09:10:58.516 - INFO - +-- END TEST: Hexagon Is Selected Initially (343)
 ------------------------------------------------------------------------------
-20170206 11:23:32.123 - INFO - +-- START TEST: Widget Is Selected After Center Click [ ]
+20170212 09:10:58.516 - INFO - +-- START TEST: Octagon Is Selected After Center Click [ ]
 ------------------------------------------------------------------------------
-20170206 11:23:32.138 - INFO - +--- START KW: SwingLibrary.Start Application [ edu.jsu.mcis.Main ]
-20170206 11:23:32.154 - FAIL - edu.jsu.mcis.Main
-20170206 11:23:32.170 - DEBUG - java.lang.RuntimeException: 
-	at org.robotframework.javalib.library.AnnotationLibrary.retrieveInnerException(AnnotationLibrary.java:148)
-	at org.robotframework.javalib.library.AnnotationLibrary.runKeyword(AnnotationLibrary.java:130)
-	at org.robotframework.swing.SwingLibrary.runKeyword(SwingLibrary.java:112)
-	at robot.model.testcase$py.visit$7(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testcase.py:73)
-	at robot.model.testcase$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testcase.py)
-	at robot.model.itemlist$py.visit$10(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/itemlist.py:68)
-	at robot.model.itemlist$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/itemlist.py)
-	at robot.model.visitor$py.visit_suite$2(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/visitor.py:87)
-	at robot.model.visitor$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/visitor.py)
-	at robot.model.testsuite$py.visit$19(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testsuite.py:160)
-	at robot.model.testsuite$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testsuite.py)
-	at robot.model.itemlist$py.visit$10(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/itemlist.py:68)
-	at robot.model.itemlist$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/itemlist.py)
-	at robot.model.visitor$py.visit_suite$2(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/visitor.py:87)
-	at robot.model.visitor$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/visitor.py)
-	at robot.model.testsuite$py.visit$19(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testsuite.py:160)
-	at robot.model.testsuite$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testsuite.py)
-	at robot.run$py.main$3(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/run.py:441)
-	at robot.run$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/run.py)
-	at robot.utils.application$py._execute$10(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/utils/application.py:91)
-	at robot.utils.application$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/utils/application.py)
-	at robot.utils.application$py.execute_cli$5(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/utils/application.py:46)
-	at robot.utils.application$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/utils/application.py)
-	at robot.run$py.run_cli$7(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/run.py:466)
-	at robot.run$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/run.py)
-	at robot.jarrunner$py._run$3(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/jarrunner.py:63)
-	at robot.jarrunner$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/jarrunner.py)
-	at robot.jarrunner$py.run$2(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/jarrunner.py:56)
-	at robot.jarrunner$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/jarrunner.py)
-	at org.robotframework.RobotRunner.run(RobotRunner.java:73)
-	at org.robotframework.RobotFramework.run(RobotFramework.java:60)
-	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
-	at org.codehaus.groovy.runtime.callsite.StaticMetaMethodSite.invoke(StaticMetaMethodSite.java:46)
-	at org.codehaus.groovy.runtime.callsite.StaticMetaMethodSite.call(StaticMetaMethodSite.java:91)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
-	at org.roboscratch.gradle.RunRobot.run(RunRobot.groovy:184)
-	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
-	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.doExecute(DefaultTaskClassInfoStore.java:141)
-	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:134)
-	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:123)
-	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:632)
-	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:615)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:95)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:76)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:55)
-	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:62)
-	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
-	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:88)
-	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:46)
-	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:51)
-	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
-	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
-	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.execute(DefaultTaskGraphExecuter.java:236)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.execute(DefaultTaskGraphExecuter.java:228)
-	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:61)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:228)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:215)
-	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:77)
-	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:58)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:32)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:113)
-	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
-	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
-	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
-	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
-	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
-	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
-	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
-	at org.gradle.initialization.DefaultGradleLauncher$3.execute(DefaultGradleLauncher.java:196)
-	at org.gradle.initialization.DefaultGradleLauncher$3.execute(DefaultGradleLauncher.java:193)
-	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:56)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:193)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:119)
-	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:102)
-	at org.gradle.launcher.exec.GradleBuildController.run(GradleBuildController.java:71)
-	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
-	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:41)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:75)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:49)
-	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:44)
-	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:29)
-	at org.gradle.launcher.daemon.server.exec.ExecuteBuild.doBuild(ExecuteBuild.java:67)
-	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
-	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
-	at org.gradle.launcher.daemon.server.exec.WatchForDisconnection.execute(WatchForDisconnection.java:47)
-	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
-	at org.gradle.launcher.daemon.server.exec.ResetDeprecationLogger.execute(ResetDeprecationLogger.java:26)
-	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
-	at org.gradle.launcher.daemon.server.exec.RequestStopIfSingleUsedDaemon.execute(RequestStopIfSingleUsedDaemon.java:34)
-	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
-	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:74)
-	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:72)
-	at org.gradle.util.Swapper.swap(Swapper.java:38)
-	at org.gradle.launcher.daemon.server.exec.ForwardClientInput.execute(ForwardClientInput.java:72)
-	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
-	at org.gradle.launcher.daemon.server.exec.LogAndCheckHealth.execute(LogAndCheckHealth.java:55)
-	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
-	at org.gradle.launcher.daemon.server.exec.LogToClient.doBuild(LogToClient.java:60)
-	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
-	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
-	at org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment.doBuild(EstablishBuildEnvironment.java:72)
-	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
-	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
-	at org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy$1.run(StartBuildOrRespondWithBusy.java:50)
-	at org.gradle.launcher.daemon.server.DaemonStateCoordinator$1.run(DaemonStateCoordinator.java:297)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:54)
-	at org.gradle.internal.concurrent.StoppableExecutorImpl$1.run(StoppableExecutorImpl.java:40)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-Caused by: java.lang.ClassNotFoundException: edu.jsu.mcis.Main
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
-	at java.lang.Class.forName0(Native Method)
-	at java.lang.Class.forName(Class.java:264)
-	at org.robotframework.swing.keyword.launch.ApplicationLaunchingKeywords.getMainMethod(ApplicationLaunchingKeywords.java:75)
-	at org.robotframework.swing.keyword.launch.ApplicationLaunchingKeywords.launchApplication(ApplicationLaunchingKeywords.java:33)
-	at org.robotframework.swing.keyword.launch.ApplicationLaunchingKeywords.startApplication(ApplicationLaunchingKeywords.java:41)
-	at org.robotframework.javalib.reflection.KeywordInvoker.invoke(KeywordInvoker.java:50)
-	at org.robotframework.javalib.beans.annotation.AnnotationKeywordExtractor$1.execute(AnnotationKeywordExtractor.java:62)
-	at org.robotframework.javalib.library.KeywordFactoryBasedLibrary.runKeyword(KeywordFactoryBasedLibrary.java:37)
-	at org.robotframework.javalib.library.AnnotationLibrary.runKeyword(AnnotationLibrary.java:128)
-	... 260 more
-20170206 11:23:32.185 - INFO - +--- END KW: SwingLibrary.Start Application (47)
+20170212 09:10:58.532 - INFO - +--- START KW: SwingLibrary.Start Application [ edu.jsu.mcis.Main ]
+20170212 09:10:58.548 - INFO - +--- END KW: SwingLibrary.Start Application (16)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170212 09:10:58.548 - INFO - +--- START KW: SwingLibrary.Select Window [ Main ]
+20170212 09:10:58.548 - DEBUG - Jemmy: Start to wait frame "Frame with name or title 'Main'" opened
+20170212 09:10:58.563 - DEBUG - Jemmy: Frame "Frame with name or title 'Main'" has been opened in 0 milliseconds
+    javax.swing.JFrame[frame21,0,0,500x500,layout=java.awt.BorderLayout,title=Main,resizable,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,484x461,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+20170212 09:10:58.579 - INFO - +--- END KW: SwingLibrary.Select Window (15)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170212 09:10:58.579 - INFO - +--- START KW: keywords.CustomWidgetKeywords.Click Octagon [ ]
+20170212 09:10:58.579 - DEBUG - Jemmy: Waiting for "Any CustomWidget" subcomponent
+20170212 09:10:58.579 - DEBUG - Jemmy: Start to wait action "Wait for "Any CustomWidget" subcomponent to be displayed"
+20170212 09:10:58.579 - DEBUG - Jemmy: "Wait for "Any CustomWidget" subcomponent to be displayed" action has been produced in 0 milliseconds with result 
+    : edu.jsu.mcis.CustomWidget[,0,16,484x445,layout=java.awt.FlowLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.LineBorder@56a92968,flags=9,maximumSize=,minimumSize=,preferredSize=]
+20170212 09:10:58.626 - INFO - +--- END KW: keywords.CustomWidgetKeywords.Click Octagon (47)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170212 09:10:58.626 - INFO - +--- START KW: SwingLibrary.Label Text Should Be [ label | Octagon ]
+20170212 09:10:58.626 - DEBUG - Jemmy: Waiting for "label" subcomponent
+20170212 09:10:58.626 - DEBUG - Jemmy: Start to wait action "Wait for "label" subcomponent to be displayed"
+20170212 09:10:58.626 - DEBUG - Jemmy: "Wait for "label" subcomponent to be displayed" action has been produced in 0 milliseconds with result 
+    : javax.swing.JLabel[label,0,0,484x16,alignmentX=0.0,alignmentY=0.0,border=,flags=8388608,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,horizontalAlignment=CENTER,horizontalTextPosition=TRAILING,iconTextGap=4,labelFor=,text=Octagon,verticalAlignment=CENTER,verticalTextPosition=CENTER]
+20170212 09:10:58.641 - INFO - +--- END KW: SwingLibrary.Label Text Should Be (15)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170212 09:10:58.641 - INFO - +--- START KW: SwingLibrary.Close Window [ Main ]
+20170212 09:10:58.641 - DEBUG - Jemmy: Start to wait frame "Frame with name or title 'Main'" opened
+20170212 09:10:58.641 - DEBUG - Jemmy: Frame "Frame with name or title 'Main'" has been opened in 0 milliseconds
+    javax.swing.JFrame[frame21,0,0,500x500,invalid,layout=java.awt.BorderLayout,title=Main,resizable,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,484x461,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+20170212 09:10:58.813 - INFO - +--- END KW: SwingLibrary.Close Window (172)
 ------------------------------------------------------------------------------
-20170206 11:23:32.185 - INFO - +-- END TEST: Widget Is Selected After Center Click (62)
+20170212 09:10:58.813 - INFO - +-- END TEST: Octagon Is Selected After Center Click (297)
 ------------------------------------------------------------------------------
-20170206 11:23:32.185 - INFO - +-- START TEST: Widget Is Unchanged After Edge Click [ ]
+20170212 09:10:58.813 - INFO - +-- START TEST: Widget Is Unchanged After Edge Click [ ]
 ------------------------------------------------------------------------------
-20170206 11:23:32.201 - INFO - +--- START KW: SwingLibrary.Start Application [ edu.jsu.mcis.Main ]
-20170206 11:23:32.232 - FAIL - edu.jsu.mcis.Main
-20170206 11:23:32.232 - DEBUG - java.lang.RuntimeException: 
-	at org.robotframework.javalib.library.AnnotationLibrary.retrieveInnerException(AnnotationLibrary.java:148)
-	at org.robotframework.javalib.library.AnnotationLibrary.runKeyword(AnnotationLibrary.java:130)
-	at org.robotframework.swing.SwingLibrary.runKeyword(SwingLibrary.java:112)
-	at robot.model.testcase$py.visit$7(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testcase.py:73)
-	at robot.model.testcase$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testcase.py)
-	at robot.model.itemlist$py.visit$10(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/itemlist.py:68)
-	at robot.model.itemlist$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/itemlist.py)
-	at robot.model.visitor$py.visit_suite$2(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/visitor.py:87)
-	at robot.model.visitor$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/visitor.py)
-	at robot.model.testsuite$py.visit$19(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testsuite.py:160)
-	at robot.model.testsuite$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testsuite.py)
-	at robot.model.itemlist$py.visit$10(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/itemlist.py:68)
-	at robot.model.itemlist$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/itemlist.py)
-	at robot.model.visitor$py.visit_suite$2(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/visitor.py:87)
-	at robot.model.visitor$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/visitor.py)
-	at robot.model.testsuite$py.visit$19(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testsuite.py:160)
-	at robot.model.testsuite$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testsuite.py)
-	at robot.run$py.main$3(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/run.py:441)
-	at robot.run$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/run.py)
-	at robot.utils.application$py._execute$10(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/utils/application.py:91)
-	at robot.utils.application$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/utils/application.py)
-	at robot.utils.application$py.execute_cli$5(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/utils/application.py:46)
-	at robot.utils.application$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/utils/application.py)
-	at robot.run$py.run_cli$7(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/run.py:466)
-	at robot.run$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/run.py)
-	at robot.jarrunner$py._run$3(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/jarrunner.py:63)
-	at robot.jarrunner$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/jarrunner.py)
-	at robot.jarrunner$py.run$2(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/jarrunner.py:56)
-	at robot.jarrunner$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/jarrunner.py)
-	at org.robotframework.RobotRunner.run(RobotRunner.java:73)
-	at org.robotframework.RobotFramework.run(RobotFramework.java:60)
-	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
-	at org.codehaus.groovy.runtime.callsite.StaticMetaMethodSite.invoke(StaticMetaMethodSite.java:46)
-	at org.codehaus.groovy.runtime.callsite.StaticMetaMethodSite.call(StaticMetaMethodSite.java:91)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
-	at org.roboscratch.gradle.RunRobot.run(RunRobot.groovy:184)
-	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
-	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.doExecute(DefaultTaskClassInfoStore.java:141)
-	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:134)
-	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:123)
-	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:632)
-	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:615)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:95)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:76)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:55)
-	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:62)
-	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
-	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:88)
-	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:46)
-	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:51)
-	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
-	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
-	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.execute(DefaultTaskGraphExecuter.java:236)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.execute(DefaultTaskGraphExecuter.java:228)
-	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:61)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:228)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:215)
-	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:77)
-	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:58)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:32)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:113)
-	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
-	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
-	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
-	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
-	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
-	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
-	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
-	at org.gradle.initialization.DefaultGradleLauncher$3.execute(DefaultGradleLauncher.java:196)
-	at org.gradle.initialization.DefaultGradleLauncher$3.execute(DefaultGradleLauncher.java:193)
-	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:56)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:193)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:119)
-	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:102)
-	at org.gradle.launcher.exec.GradleBuildController.run(GradleBuildController.java:71)
-	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
-	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:41)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:75)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:49)
-	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:44)
-	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:29)
-	at org.gradle.launcher.daemon.server.exec.ExecuteBuild.doBuild(ExecuteBuild.java:67)
-	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
-	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
-	at org.gradle.launcher.daemon.server.exec.WatchForDisconnection.execute(WatchForDisconnection.java:47)
-	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
-	at org.gradle.launcher.daemon.server.exec.ResetDeprecationLogger.execute(ResetDeprecationLogger.java:26)
-	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
-	at org.gradle.launcher.daemon.server.exec.RequestStopIfSingleUsedDaemon.execute(RequestStopIfSingleUsedDaemon.java:34)
-	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
-	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:74)
-	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:72)
-	at org.gradle.util.Swapper.swap(Swapper.java:38)
-	at org.gradle.launcher.daemon.server.exec.ForwardClientInput.execute(ForwardClientInput.java:72)
-	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
-	at org.gradle.launcher.daemon.server.exec.LogAndCheckHealth.execute(LogAndCheckHealth.java:55)
-	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
-	at org.gradle.launcher.daemon.server.exec.LogToClient.doBuild(LogToClient.java:60)
-	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
-	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
-	at org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment.doBuild(EstablishBuildEnvironment.java:72)
-	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
-	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
-	at org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy$1.run(StartBuildOrRespondWithBusy.java:50)
-	at org.gradle.launcher.daemon.server.DaemonStateCoordinator$1.run(DaemonStateCoordinator.java:297)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:54)
-	at org.gradle.internal.concurrent.StoppableExecutorImpl$1.run(StoppableExecutorImpl.java:40)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-Caused by: java.lang.ClassNotFoundException: edu.jsu.mcis.Main
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
-	at java.lang.Class.forName0(Native Method)
-	at java.lang.Class.forName(Class.java:264)
-	at org.robotframework.swing.keyword.launch.ApplicationLaunchingKeywords.getMainMethod(ApplicationLaunchingKeywords.java:75)
-	at org.robotframework.swing.keyword.launch.ApplicationLaunchingKeywords.launchApplication(ApplicationLaunchingKeywords.java:33)
-	at org.robotframework.swing.keyword.launch.ApplicationLaunchingKeywords.startApplication(ApplicationLaunchingKeywords.java:41)
-	at org.robotframework.javalib.reflection.KeywordInvoker.invoke(KeywordInvoker.java:50)
-	at org.robotframework.javalib.beans.annotation.AnnotationKeywordExtractor$1.execute(AnnotationKeywordExtractor.java:62)
-	at org.robotframework.javalib.library.KeywordFactoryBasedLibrary.runKeyword(KeywordFactoryBasedLibrary.java:37)
-	at org.robotframework.javalib.library.AnnotationLibrary.runKeyword(AnnotationLibrary.java:128)
-	... 260 more
-20170206 11:23:32.232 - INFO - +--- END KW: SwingLibrary.Start Application (31)
+20170212 09:10:58.813 - INFO - +--- START KW: SwingLibrary.Start Application [ edu.jsu.mcis.Main ]
+20170212 09:10:58.829 - INFO - +--- END KW: SwingLibrary.Start Application (16)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170212 09:10:58.845 - INFO - +--- START KW: SwingLibrary.Select Window [ Main ]
+20170212 09:10:58.845 - DEBUG - Jemmy: Start to wait frame "Frame with name or title 'Main'" opened
+20170212 09:10:58.845 - DEBUG - Jemmy: Frame "Frame with name or title 'Main'" has been opened in 0 milliseconds
+    javax.swing.JFrame[frame22,0,0,500x500,layout=java.awt.BorderLayout,title=Main,resizable,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,484x461,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+20170212 09:10:58.845 - INFO - +--- END KW: SwingLibrary.Select Window (0)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170212 09:10:58.845 - INFO - +--- START KW: keywords.CustomWidgetKeywords.Click Custom Widget Outside [ ]
+20170212 09:10:58.860 - DEBUG - Jemmy: Waiting for "Any CustomWidget" subcomponent
+20170212 09:10:58.860 - DEBUG - Jemmy: Start to wait action "Wait for "Any CustomWidget" subcomponent to be displayed"
+20170212 09:10:58.860 - DEBUG - Jemmy: "Wait for "Any CustomWidget" subcomponent to be displayed" action has been produced in 0 milliseconds with result 
+    : edu.jsu.mcis.CustomWidget[,0,16,484x445,layout=java.awt.FlowLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.LineBorder@6431c6f2,flags=9,maximumSize=,minimumSize=,preferredSize=]
+20170212 09:10:58.876 - INFO - +--- END KW: keywords.CustomWidgetKeywords.Click Custom Widget Outside (31)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170212 09:10:58.876 - INFO - +--- START KW: SwingLibrary.Label Text Should Be [ label | Hexagon ]
+20170212 09:10:58.876 - DEBUG - Jemmy: Waiting for "label" subcomponent
+20170212 09:10:58.876 - DEBUG - Jemmy: Start to wait action "Wait for "label" subcomponent to be displayed"
+20170212 09:10:58.891 - DEBUG - Jemmy: "Wait for "label" subcomponent to be displayed" action has been produced in 15 milliseconds with result 
+    : javax.swing.JLabel[label,0,0,484x16,alignmentX=0.0,alignmentY=0.0,border=,flags=8388608,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,horizontalAlignment=CENTER,horizontalTextPosition=TRAILING,iconTextGap=4,labelFor=,text=Hexagon,verticalAlignment=CENTER,verticalTextPosition=CENTER]
+20170212 09:10:58.891 - INFO - +--- END KW: SwingLibrary.Label Text Should Be (15)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170212 09:10:58.891 - INFO - +--- START KW: SwingLibrary.Close Window [ Main ]
+20170212 09:10:58.891 - DEBUG - Jemmy: Start to wait frame "Frame with name or title 'Main'" opened
+20170212 09:10:58.891 - DEBUG - Jemmy: Frame "Frame with name or title 'Main'" has been opened in 0 milliseconds
+    javax.swing.JFrame[frame22,0,0,500x500,layout=java.awt.BorderLayout,title=Main,resizable,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,484x461,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+20170212 09:10:59.063 - INFO - +--- END KW: SwingLibrary.Close Window (172)
 ------------------------------------------------------------------------------
-20170206 11:23:32.232 - INFO - +-- END TEST: Widget Is Unchanged After Edge Click (47)
+20170212 09:10:59.063 - INFO - +-- END TEST: Widget Is Unchanged After Edge Click (250)
 ------------------------------------------------------------------------------
-20170206 11:23:32.232 - INFO - +-- START TEST: Widget Toggles With Successive Center Clicks [ ]
+20170212 09:10:59.063 - INFO - +-- START TEST: Widget Toggles With Successive Center Clicks [ ]
 ------------------------------------------------------------------------------
-20170206 11:23:32.248 - INFO - +--- START KW: SwingLibrary.Start Application [ edu.jsu.mcis.Main ]
-20170206 11:23:32.263 - FAIL - edu.jsu.mcis.Main
-20170206 11:23:32.263 - DEBUG - java.lang.RuntimeException: 
-	at org.robotframework.javalib.library.AnnotationLibrary.retrieveInnerException(AnnotationLibrary.java:148)
-	at org.robotframework.javalib.library.AnnotationLibrary.runKeyword(AnnotationLibrary.java:130)
-	at org.robotframework.swing.SwingLibrary.runKeyword(SwingLibrary.java:112)
-	at robot.model.testcase$py.visit$7(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testcase.py:73)
-	at robot.model.testcase$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testcase.py)
-	at robot.model.itemlist$py.visit$10(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/itemlist.py:68)
-	at robot.model.itemlist$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/itemlist.py)
-	at robot.model.visitor$py.visit_suite$2(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/visitor.py:87)
-	at robot.model.visitor$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/visitor.py)
-	at robot.model.testsuite$py.visit$19(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testsuite.py:160)
-	at robot.model.testsuite$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testsuite.py)
-	at robot.model.itemlist$py.visit$10(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/itemlist.py:68)
-	at robot.model.itemlist$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/itemlist.py)
-	at robot.model.visitor$py.visit_suite$2(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/visitor.py:87)
-	at robot.model.visitor$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/visitor.py)
-	at robot.model.testsuite$py.visit$19(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testsuite.py:160)
-	at robot.model.testsuite$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testsuite.py)
-	at robot.run$py.main$3(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/run.py:441)
-	at robot.run$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/run.py)
-	at robot.utils.application$py._execute$10(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/utils/application.py:91)
-	at robot.utils.application$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/utils/application.py)
-	at robot.utils.application$py.execute_cli$5(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/utils/application.py:46)
-	at robot.utils.application$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/utils/application.py)
-	at robot.run$py.run_cli$7(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/run.py:466)
-	at robot.run$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/run.py)
-	at robot.jarrunner$py._run$3(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/jarrunner.py:63)
-	at robot.jarrunner$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/jarrunner.py)
-	at robot.jarrunner$py.run$2(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/jarrunner.py:56)
-	at robot.jarrunner$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/jarrunner.py)
-	at org.robotframework.RobotRunner.run(RobotRunner.java:73)
-	at org.robotframework.RobotFramework.run(RobotFramework.java:60)
-	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
-	at org.codehaus.groovy.runtime.callsite.StaticMetaMethodSite.invoke(StaticMetaMethodSite.java:46)
-	at org.codehaus.groovy.runtime.callsite.StaticMetaMethodSite.call(StaticMetaMethodSite.java:91)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
-	at org.roboscratch.gradle.RunRobot.run(RunRobot.groovy:184)
-	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
-	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.doExecute(DefaultTaskClassInfoStore.java:141)
-	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:134)
-	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:123)
-	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:632)
-	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:615)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:95)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:76)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:55)
-	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:62)
-	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
-	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:88)
-	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:46)
-	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:51)
-	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
-	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
-	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.execute(DefaultTaskGraphExecuter.java:236)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.execute(DefaultTaskGraphExecuter.java:228)
-	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:61)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:228)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:215)
-	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:77)
-	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:58)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:32)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:113)
-	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
-	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
-	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
-	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
-	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
-	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
-	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
-	at org.gradle.initialization.DefaultGradleLauncher$3.execute(DefaultGradleLauncher.java:196)
-	at org.gradle.initialization.DefaultGradleLauncher$3.execute(DefaultGradleLauncher.java:193)
-	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:56)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:193)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:119)
-	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:102)
-	at org.gradle.launcher.exec.GradleBuildController.run(GradleBuildController.java:71)
-	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
-	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:41)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:75)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:49)
-	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:44)
-	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:29)
-	at org.gradle.launcher.daemon.server.exec.ExecuteBuild.doBuild(ExecuteBuild.java:67)
-	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
-	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
-	at org.gradle.launcher.daemon.server.exec.WatchForDisconnection.execute(WatchForDisconnection.java:47)
-	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
-	at org.gradle.launcher.daemon.server.exec.ResetDeprecationLogger.execute(ResetDeprecationLogger.java:26)
-	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
-	at org.gradle.launcher.daemon.server.exec.RequestStopIfSingleUsedDaemon.execute(RequestStopIfSingleUsedDaemon.java:34)
-	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
-	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:74)
-	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:72)
-	at org.gradle.util.Swapper.swap(Swapper.java:38)
-	at org.gradle.launcher.daemon.server.exec.ForwardClientInput.execute(ForwardClientInput.java:72)
-	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
-	at org.gradle.launcher.daemon.server.exec.LogAndCheckHealth.execute(LogAndCheckHealth.java:55)
-	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
-	at org.gradle.launcher.daemon.server.exec.LogToClient.doBuild(LogToClient.java:60)
-	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
-	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
-	at org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment.doBuild(EstablishBuildEnvironment.java:72)
-	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
-	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
-	at org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy$1.run(StartBuildOrRespondWithBusy.java:50)
-	at org.gradle.launcher.daemon.server.DaemonStateCoordinator$1.run(DaemonStateCoordinator.java:297)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:54)
-	at org.gradle.internal.concurrent.StoppableExecutorImpl$1.run(StoppableExecutorImpl.java:40)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-Caused by: java.lang.ClassNotFoundException: edu.jsu.mcis.Main
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
-	at java.lang.Class.forName0(Native Method)
-	at java.lang.Class.forName(Class.java:264)
-	at org.robotframework.swing.keyword.launch.ApplicationLaunchingKeywords.getMainMethod(ApplicationLaunchingKeywords.java:75)
-	at org.robotframework.swing.keyword.launch.ApplicationLaunchingKeywords.launchApplication(ApplicationLaunchingKeywords.java:33)
-	at org.robotframework.swing.keyword.launch.ApplicationLaunchingKeywords.startApplication(ApplicationLaunchingKeywords.java:41)
-	at org.robotframework.javalib.reflection.KeywordInvoker.invoke(KeywordInvoker.java:50)
-	at org.robotframework.javalib.beans.annotation.AnnotationKeywordExtractor$1.execute(AnnotationKeywordExtractor.java:62)
-	at org.robotframework.javalib.library.KeywordFactoryBasedLibrary.runKeyword(KeywordFactoryBasedLibrary.java:37)
-	at org.robotframework.javalib.library.AnnotationLibrary.runKeyword(AnnotationLibrary.java:128)
-	... 260 more
-20170206 11:23:32.263 - INFO - +--- END KW: SwingLibrary.Start Application (15)
+20170212 09:10:59.063 - INFO - +--- START KW: SwingLibrary.Start Application [ edu.jsu.mcis.Main ]
+20170212 09:10:59.079 - INFO - +--- END KW: SwingLibrary.Start Application (16)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170212 09:10:59.095 - INFO - +--- START KW: SwingLibrary.Select Window [ Main ]
+20170212 09:10:59.095 - DEBUG - Jemmy: Start to wait frame "Frame with name or title 'Main'" opened
+20170212 09:10:59.095 - DEBUG - Jemmy: Frame "Frame with name or title 'Main'" has been opened in 0 milliseconds
+    javax.swing.JFrame[frame23,0,0,500x500,layout=java.awt.BorderLayout,title=Main,resizable,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,484x461,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+20170212 09:10:59.110 - INFO - +--- END KW: SwingLibrary.Select Window (31)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170212 09:10:59.110 - INFO - +--- START KW: keywords.CustomWidgetKeywords.Click Octagon [ ]
+20170212 09:10:59.110 - DEBUG - Jemmy: Waiting for "Any CustomWidget" subcomponent
+20170212 09:10:59.110 - DEBUG - Jemmy: Start to wait action "Wait for "Any CustomWidget" subcomponent to be displayed"
+20170212 09:10:59.110 - DEBUG - Jemmy: "Wait for "Any CustomWidget" subcomponent to be displayed" action has been produced in 0 milliseconds with result 
+    : edu.jsu.mcis.CustomWidget[,0,16,484x445,layout=java.awt.FlowLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.LineBorder@4afe108a,flags=9,maximumSize=,minimumSize=,preferredSize=]
+20170212 09:10:59.126 - INFO - +--- END KW: keywords.CustomWidgetKeywords.Click Octagon (16)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170212 09:10:59.126 - INFO - +--- START KW: SwingLibrary.Label Text Should Be [ label | Octagon ]
+20170212 09:10:59.141 - DEBUG - Jemmy: Waiting for "label" subcomponent
+20170212 09:10:59.141 - DEBUG - Jemmy: Start to wait action "Wait for "label" subcomponent to be displayed"
+20170212 09:10:59.141 - DEBUG - Jemmy: "Wait for "label" subcomponent to be displayed" action has been produced in 0 milliseconds with result 
+    : javax.swing.JLabel[label,0,0,484x16,alignmentX=0.0,alignmentY=0.0,border=,flags=8388608,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,horizontalAlignment=CENTER,horizontalTextPosition=TRAILING,iconTextGap=4,labelFor=,text=Octagon,verticalAlignment=CENTER,verticalTextPosition=CENTER]
+20170212 09:10:59.157 - INFO - +--- END KW: SwingLibrary.Label Text Should Be (31)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170212 09:10:59.157 - INFO - +--- START KW: keywords.CustomWidgetKeywords.Click Hexagon [ ]
+20170212 09:10:59.157 - DEBUG - Jemmy: Waiting for "Any CustomWidget" subcomponent
+20170212 09:10:59.157 - DEBUG - Jemmy: Start to wait action "Wait for "Any CustomWidget" subcomponent to be displayed"
+20170212 09:10:59.157 - DEBUG - Jemmy: "Wait for "Any CustomWidget" subcomponent to be displayed" action has been produced in 0 milliseconds with result 
+    : edu.jsu.mcis.CustomWidget[,0,16,484x445,layout=java.awt.FlowLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.LineBorder@4afe108a,flags=9,maximumSize=,minimumSize=,preferredSize=]
+20170212 09:10:59.173 - INFO - +--- END KW: keywords.CustomWidgetKeywords.Click Hexagon (16)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170212 09:10:59.173 - INFO - +--- START KW: SwingLibrary.Label Text Should Be [ label | Hexagon ]
+20170212 09:10:59.173 - DEBUG - Jemmy: Waiting for "label" subcomponent
+20170212 09:10:59.173 - DEBUG - Jemmy: Start to wait action "Wait for "label" subcomponent to be displayed"
+20170212 09:10:59.173 - DEBUG - Jemmy: "Wait for "label" subcomponent to be displayed" action has been produced in 0 milliseconds with result 
+    : javax.swing.JLabel[label,0,0,484x16,alignmentX=0.0,alignmentY=0.0,border=,flags=8388608,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,horizontalAlignment=CENTER,horizontalTextPosition=TRAILING,iconTextGap=4,labelFor=,text=Hexagon,verticalAlignment=CENTER,verticalTextPosition=CENTER]
+20170212 09:10:59.188 - INFO - +--- END KW: SwingLibrary.Label Text Should Be (0)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170212 09:10:59.188 - INFO - +--- START KW: SwingLibrary.Close Window [ Main ]
+20170212 09:10:59.188 - DEBUG - Jemmy: Start to wait frame "Frame with name or title 'Main'" opened
+20170212 09:10:59.188 - DEBUG - Jemmy: Frame "Frame with name or title 'Main'" has been opened in 0 milliseconds
+    javax.swing.JFrame[frame23,0,0,500x500,invalid,layout=java.awt.BorderLayout,title=Main,resizable,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,484x461,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+20170212 09:10:59.376 - INFO - +--- END KW: SwingLibrary.Close Window (188)
 ------------------------------------------------------------------------------
-20170206 11:23:32.263 - INFO - +-- END TEST: Widget Toggles With Successive Center Clicks (31)
+20170212 09:10:59.391 - INFO - +-- END TEST: Widget Toggles With Successive Center Clicks (313)
 ------------------------------------------------------------------------------
-20170206 11:23:32.279 - INFO - +- END SUITE: Acceptancetest.CustomWidgetTests (2024)
+20170212 09:10:59.438 - INFO - +- END SUITE: Acceptancetest.CustomWidgetTests (1859)
 ==============================================================================
-20170206 11:23:32.295 - INFO - + END SUITE: Acceptancetest (2348)
+20170212 09:10:59.470 - INFO - + END SUITE: Acceptancetest (2203)
 ==============================================================================
